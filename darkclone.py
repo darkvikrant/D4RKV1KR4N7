@@ -45,14 +45,12 @@ def jalan(z):
 
 ##### LOGO #####
 logo = """
-
-     _      _   _    ___    _   _  __   __  __  __    ___    _   _   ____  
-    / \    | \ | |  / _ \  | \ | | \ \ / / |  \/  |  / _ \  | | | | / ___| 
-   / _ \   |  \| | | | | | |  \| |  \ V /  | |\/| | | | | | | | | | \___ \ 
-  / ___ \  | |\  | | |_| | | |\  |   | |   | |  | | | |_| | | |_| |  ___) |
- /_/   \_\ |_| \_|  \___/  |_| \_|   |_|   |_|  |_|  \___/   \___/  |____/ 
-                                                                           
-
+  ____       _      ____    _  __   __     __  ___    ____   _  __ __   __
+ |  _ \     / \    |  _ \  | |/ /   \ \   / / |_ _|  / ___| | |/ / \ \ / /
+ | | | |   / _ \   | |_) | | ' /     \ \ / /   | |  | |     | ' /   \ V / 
+ | |_| |  / ___ \  |  _ <  | . \      \ V /    | |  | |___  | . \    | |  
+ |____/  /_/   \_\ |_| \_\ |_|\_\      \_/    |___|  \____| |_|\_\   |_|  
+                                                                          
 \033[1;97mAuthor\033[1;97m: \033[1;92mDARK ANONYMOUS VIKRANT
 \033[1;97mFacebook\033[1;97m: \033[1;92mhttps://www.facebook.com/DARK.ANONYMOUS.VIKRANT
 \033[1;97mWhatsapp\033[1;97m: \033[1;92m+919058587474
@@ -99,10 +97,10 @@ while (loop == 'true'):
             loop = 'false'
         else:
             print "\033[1;91mWrong Password"
-            os.system('xdg-open https://www.youtube.com/channel/UC4x29jHh48BmYF9h6BD3loA')
+            os.system('xdg-open https://www.facebook.com/DARK.ANONYMOUS.VIKRANT')
     else:
         print "\033[1;91mWrong Username"
-        os.system('xdg-open https://www.youtube.com/channel/UC4x29jHh48BmYF9h6BD3loA')
+        os.system('xdg-open https://www.facebook.com/DARK.ANONYMOUS.VIKRANT')
 
 def login():
 	os.system('clear')
@@ -192,7 +190,7 @@ def menu():
 	print "  \033[1;97m\033[1;95mLogged in User Info\033[1;97m"
 	print "	   \033[1;93m Name\033[1;93m:\033[1;97m"+nama+"\033[1;97m               "
 	print "	   \033[1;93m ID\033[1;93m:\033[1;97m"+id+"\x1b[1;97m              "
-	print "\033[1;97m--\033[1;92m> \033[1;92m1.\x1b[1;92mStart Cloning with DJ"
+	print "\033[1;97m--\033[1;92m> \033[1;92m1.\x1b[1;92mStart Cloning with ANONYMOUS"
 	print "\033[1;97m--\033[1;91m> \033[1;91m0.\033[1;91mExit            "
 	pilih()
 
